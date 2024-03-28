@@ -1,0 +1,38 @@
+echo "cerinta 1"
+    1 mkdir student
+    2  pwd
+    3  cd student
+    4  pwd
+    5  mkdir SO
+    8  pwd
+    9  cd SO
+   10  pwd
+   11  mkdir lab01
+   12  ls -l
+   13  cd lab01
+   14  pwd
+   21  cd /home/runner/0xjnlc2plyf/
+echo "cerinta 2"
+   23  touch f1
+   24  touch f2
+   25  touch f3
+   31  echo "linia 1" > f1
+   32  echo "linia 2" > f2
+   33  echo "linia 3" > f3
+echo "cerinta 3"
+   59  mv /home/runner/0xjnlc2plyf/f1 /home/runner/0xjnlc2plyf/student/SO/lab01/
+   60  mv /home/runner/0xjnlc2plyf/f2 /home/runner/0xjnlc2plyf/student/SO/lab01/
+   61  mv /home/runner/0xjnlc2plyf/f3 /home/runner/0xjnlc2plyf/student/SO/lab01/
+   63  cd /home/runner/0xjnlc2plyf/student/SO/lab01/
+ echo "cerinta 4"
+   66  cat f2
+   67  cat f3
+echo "cerinta 5"
+   69  ls -l
+   70  rm f1
+   71  rm f2
+   72  ls -l
+echo "cerinta 6"
+   73  mv f3 t1.c
+   74  ls -l
+   75  history

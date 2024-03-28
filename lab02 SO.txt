@@ -1,0 +1,29 @@
+    1  echo "cerinta 1"
+    3  mkdir laborator2
+    5  cd laborator2
+    7  touch doc1.txt doc2.txt pic1.jpg pic2.jpg
+
+   11  echo "cerinta 2"
+   12  touch ex.txt
+   17  ls -l *.jpg > ex.txt
+   18  cat ex.txt
+sau 
+   38  ls *.jpg >> ex.txt
+   39  cat ex.txt
+
+   19  echo "cerinta 3"
+   20  pwd >> ex.txt
+   21  cat ex.txt
+
+   29  echo "cerinta 4"
+   30  chmod u+rwx *.txt
+   31  ls -l
+   32  chmod g+rw *.txt
+   33  ls -l
+   34  chmod o+r *.txt
+   35  ls -l
+   
+   41  echo "cerinta 5"
+   42  ls *.txt
+   43  ls *.txt >> ex.txt
+   44  cat ex.txt

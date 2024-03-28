@@ -1,0 +1,17 @@
+nr=0
+for argument in $*
+   do
+           nr=`expr $argument % 2`
+           echo "Restul pentru argumentul $argument este $nr"
+   done
+for argument in $*
+do
+nr=`expr $argument % 2`
+echo "Restul pentru argumentul $argument este $nr"
+if test $nr -eq 0
+   then
+           echo "Argumentul $argument este par"
+else
+           echo "Argumentul $argument nu este par"
+fi
+done
